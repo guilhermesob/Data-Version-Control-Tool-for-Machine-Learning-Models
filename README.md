@@ -61,8 +61,6 @@ This code will measure the execution time of the my_function and log the results
 2. Monitoring Memory Usage
 You can monitor the memory usage of a function using MemoryProfiler:
 ```
-julia
-Copiar código
 using MemoryProfiler
 
 function my_memory_function()
@@ -77,8 +75,6 @@ This will display memory allocations made by the function, helping identify area
 3. Custom Logging Setup
 The logging tool is set up using the Logging package to capture events during execution:
 ```
-julia
-Copiar código
 using Logging
 
 function my_function_with_logging()
